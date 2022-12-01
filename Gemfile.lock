@@ -1,0 +1,31 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    concurrent-ruby (1.1.10)
+    connection_pool (2.3.0)
+    io-console (0.5.11)
+    irb (1.5.1)
+      reline (>= 0.3.0)
+    rack (3.0.1)
+    redis-client (0.11.2)
+      connection_pool
+    reline (0.3.1)
+      io-console (~> 0.5)
+    sidekiq (7.0.2)
+      concurrent-ruby (< 2)
+      connection_pool (>= 2.3.0)
+      rack (>= 2.2.4)
+      redis-client (>= 0.11.0)
+
+PLATFORMS
+  arm64-darwin-21
+
+DEPENDENCIES
+  irb
+  sidekiq
+
+RUBY VERSION
+   ruby 3.1.2p20
+
+BUNDLED WITH
+   2.3.25
